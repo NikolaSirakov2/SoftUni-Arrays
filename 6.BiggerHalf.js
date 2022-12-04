@@ -3,15 +3,15 @@ function biggerHalf(arr){
 
     arr.sort(function (a, b){return a - b})
 
-    // let newArr = [];
+    let newArr = [];
 
-    // for (let i = k; i < arr.length; i++){
-    //     newArr.push(arr[i])
-    // }
+    for (let i = k; i < arr.length; i++){
+        newArr.push(arr[i])
+    }
 
-    // return newArr;
+    return newArr;
 
-    console.log(arr.slice(1, 4));
+    
 }
 
 biggerHalf([3, 19, 14, 7, 2, 19, 6])
