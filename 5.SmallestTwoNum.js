@@ -7,3 +7,13 @@ function smallestTwo(arr){
 }
 
 smallestTwo([30, 15, 50, 5])
+
+const fruit = ['banana', 'orange', 'apple', 'mango']
+
+fruit.sort();
+
+console.log(fruit);
+
+fruit.reverse()
+
+console.log(fruit);
