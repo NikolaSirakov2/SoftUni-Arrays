@@ -3,11 +3,11 @@ function sort(arr){
         if(a.length !== b.length){
             return a.length - b.length;
         } else {
-            return a - b;
+            return a.localeCompare(b);
         }
     })
 
     console.log(arr.join('\n'));
 }
 
-sort(['alpha', 'beta', 'gamma', 'omega', 'ast'])
+sort(['tesr', 'Deny', 'omen', 'Default'])
